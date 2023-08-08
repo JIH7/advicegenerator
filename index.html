@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&display=swap" rel="stylesheet">
+  <!-- /Fonts -->
+
+  <link rel="stylesheet" href="public/main.css">
+  
+  <title>Advice generator app</title>
+</head>
+<body class="bg-darkBlue | h-screen | flex flex-col items-center justify-center">
+  <div class="bg-darkGrayishBlue | rounded-3xl | w-11/12 md:w-1/3 min-h-1/3 | flex flex-col items-center justify-between">
+    <h2 id="advicetext" class="text-neonGreen | text-sm font-medium | tracking-widester | mt-8"></h2>
+    <h1 id="quotetext" class="text-lightCyan | text-quotesize | font-extrabold | mx-6"></h1>
+    <img class="block md:hidden" src="images/pattern-divider-mobile.svg" alt="divider-mobile">
+    <img class="hidden md:block" src="images/pattern-divider-desktop.svg" alt="divider-desktop">
+    <button id="reroll" class="glow-button | bg-neonGreen | rounded-full | h-14 w-14 | flex items-center justify-center | relative -bottom-8"><img class="h-2/5 w-2/5" src="images/icon-dice.svg" alt="dice"></button>
+  </div>
+  <div class="text-white | absolute left-auto bottom-0">
+    Challenge by <a class="text-blue-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-blue-400" href="https://jeremyhelsel.com" target="_blank">Jeremy Helsel</a>.
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
