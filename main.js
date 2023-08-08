@@ -14,6 +14,3 @@ const UpdatePage = async () => {
 UpdatePage();
 //Query selector for reloads
 document.querySelector('#reroll').addEventListener('click', UpdatePage);
-document.querySelector('#reroll').addEventListener('touchstart', UpdatePage);
-
-
